@@ -43,7 +43,8 @@ property['color.blue'] = 0xE6994D
 -- by majj
 property['color.kw'] = 0xEFD966
 property['color.nu'] = 0x7226F9
-property['color.re'] = 0xEFD966
+-- property['color.re'] = 0xEFD966
+property['color.select'] = 0x4F5453
 
 -- Light colors.
 --property['color.light_red'] = 0x8080CC
@@ -99,8 +100,8 @@ property['style.whitespace'] = ''
 --buffer.additional_caret_fore =
 
 -- Caret and Selection Styles.
-buffer:set_sel_fore(true, property_int['color.light_black'])
-buffer:set_sel_back(true, property_int['color.grey'])
+--buffer:set_sel_fore(true, property_int['color.light_black'])
+buffer:set_sel_back(true, property_int['color.select'])
 --buffer.sel_alpha =
 buffer.caret_fore = property_int['color.white']
 buffer.caret_line_back = property_int['color.light_black']
